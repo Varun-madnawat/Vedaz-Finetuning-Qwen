@@ -1,0 +1,38 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Training Outputs
+outputs/checkpoints/
+outputs/merged_model/
+logs/runs/
+
+# Data (keep structure, ignore large files)
+data/train.jsonl
+data/val.jsonl
+data/raw/*.jsonl
+data/raw/*.json
+data/raw/*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Hugging Face
+*.safetensors
+*.bin
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/

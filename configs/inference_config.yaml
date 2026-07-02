@@ -1,0 +1,11 @@
+# Inference Configuration
+inference:
+  model_path: "outputs/merged_model"
+  adapter_path: "outputs/checkpoints"
+  torch_dtype: "bfloat16"
+  max_new_tokens: 512
+  temperature: 0.7
+  top_p: 0.9
+  top_k: 50
+  repetition_penalty: 1.1
+  do_sample: true
